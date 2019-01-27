@@ -57,7 +57,7 @@ client.on('message', message => { // لا تغير شئ عشان ما تخرب �
 if (message.content === 'k') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
+      for(let x = 0; x < 200000; x++) {
         message.channel.send(`منورين في السيرفر`)
           .then(m => {
             count++;
@@ -71,7 +71,7 @@ client2.on('message', message => { // لا تغير شئ عشان ما تخرب 
 if (message.content === 'k') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
+      for(let x = 0; x < 200000; x++) {
         message.channel.send(`منورين في السيرفر`)
           .then(m => {
             count++;
