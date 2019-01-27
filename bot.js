@@ -80,6 +80,28 @@ if (message.content === 'k') {
         }
       }
 });
+client2.on('message', message => {
+    if(message.content === '-ريب'){
+        message.channel.send('#credits')
+    }
+});
+
+
+
+client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+if (message.content === 'k') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`منورين في السيرفر`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
 client3.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
 if (message.content === 'k') {
       let count = 0;
@@ -93,7 +115,15 @@ if (message.content === 'k') {
         }
       }
 });
-client4.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+client3.on('message', message => {
+    if(message.content === '-ريب'){
+        message.channel.send('#credits')
+    }
+});
+
+
+
+client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
 if (message.content === 'k') {
       let count = 0;
       let ecount = 0;
@@ -106,6 +136,40 @@ if (message.content === 'k') {
         }
       }
 });
+
+client4.on('message', message => {
+    if(message.content === '-ريب'){
+        message.channel.send('#credits')
+    }
+});
+
+
+client4.on('message', message => {
+    if(message.content === '-ريب'){
+        message.channel.send('#credits')
+    }
+});
+
+client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+if (message.content === 'k') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`منورين في السيرفر`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client5.on('message', message => {
+    if(message.content === '-ريب'){
+        message.channel.send('#credits')
+    }
+});
+
 client5.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
 if (message.content === 'k') {
       let count = 0;
@@ -120,6 +184,35 @@ if (message.content === 'k') {
       }
 });
 
+
+
+client5.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+if (message.content === 'k') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`منورين في السيرفر`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client5.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+if (message.content === 'k') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`منورين في السيرفر`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
 client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
 client3.login(process.env.TOKEN3);
