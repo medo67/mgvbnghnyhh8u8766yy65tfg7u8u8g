@@ -68,7 +68,7 @@ if (message.content === 'k') {
 });
 
 client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
+if (message.content === 'k') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
